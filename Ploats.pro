@@ -1,12 +1,17 @@
 HEADERS += \
     filereader.h \
-    curvesinfo.h \
-    curve.h
+    curve.h \
+    mainwindow.h \
+    plotsrenderer.h
 
 SOURCES += \
     filereader.cpp \
-    curvesinfo.cpp \
-    curve.cpp
+    curve.cpp \
+    main.cpp \
+    mainwindow.cpp \
+    plotsrenderer.cpp
+
+
 
 
 
