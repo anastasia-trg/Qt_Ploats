@@ -10,7 +10,7 @@ using namespace std;
 FileReader(const char* filename) : _file(filename){
 }
 
-CurvesInfo FileReader::read() {
+PlotsRenderer FileReader::read() {
     char asixX[10];
     char asixY[10];
 
