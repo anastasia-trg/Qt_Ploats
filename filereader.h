@@ -2,13 +2,14 @@
 #define FILEREADER_H
 
 #include <fstream>
-#include "curvesinfo.h"
+#include "plotsrenderer.h"
 
 class FileReader
 {
 public:
     FileReader(const char* filename);
-    CurvesInfo read();
+    PlotsRenderer read();
+
 private:
     ifstream _file;
 };
