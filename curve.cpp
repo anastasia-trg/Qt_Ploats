@@ -1,10 +1,8 @@
 #include "curve.h"
 
-Curve::Curve() : _name(name) {
-
+Curve::Curve(const std::string &name) : _name(name) {
 }
 
-void Curve::addValue(float value)
-{
+void Curve::addValue(float value) {
     _values.push_back(value);
 }

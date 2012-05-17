@@ -4,18 +4,15 @@
 #include <vector>
 #include <string>
 
-using namespace std;
-
 class Curve
 {
 public:
-    Curve();
-    Curve(const string &name);
+    Curve(const std::string &name);
     void addValue(float value);
 
 private:
-    string _name;
-    vector<float> _values;
+    std::string _name;
+    std::vector<float> _values;
 };
 
 #endif // CURVE_H
